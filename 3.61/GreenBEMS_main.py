@@ -327,11 +327,12 @@ if __name__ == '__main__':
     new_row = len(df)
     time_interval = new_row
 
+
+
     
     '''
     read data from server
     '''
-    
 
     with open("/home/ubuntu/mysql-credentials.toml") as f:
         c = pytoml.load(f)
@@ -387,9 +388,20 @@ if __name__ == '__main__':
     #     # for ts,building,zone,vav,occupied,temperature in result:
     #     for row in result:
     #         results_tm1.append(Status(*row))
+<<<<<<< Updated upstream
             
     # print(results_tm1)
         
+=======
+            
+<<<<<<< HEAD
+            
+            
+=======
+    # print(results_tm1)
+        
+>>>>>>> 9545d3f0cdf56bba5d6f50d9e73d6ebbee27756b
+>>>>>>> Stashed changes
     # class DataPoint:
     #     def __init__(self, ts, temperature, occupied):
     #         self.ts = ts
@@ -424,6 +436,7 @@ if __name__ == '__main__':
     # time_step = time_step
     
     
+    
     '''Temperature'''
 
     # oa_temp = 75
@@ -445,6 +458,9 @@ if __name__ == '__main__':
     hvac_2004 = results[3].occupied
     hvac_2005 = results[4].occupied
     hvac_2006 = results[5].occupied
+
+
+
 
     '''
     Store data
