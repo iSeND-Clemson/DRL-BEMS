@@ -38,7 +38,6 @@ The global energy outlook is witnessing a continuous surge in the demand for ene
 
 
 <br>
-<br>
 
 
 Despite the popularity of open-plan offices in commercial buildings, limited research has been conducted to address the importance of energy optimization in these types of spaces. For instance, VAV units in such offices often operate independently, without considering the interconnectivity of these spaces, which can result in a disparity in heating and cooling, with areas located close to vents receiving more ventilation-based heating/cooling, while spaces near windows receive more heat from solar radiation.
@@ -47,9 +46,7 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 <img src="./plot/multi_VAV_2.jpg" width="80%">
 
 <br>
-<br>
-<br>
-<br>
+
 
 
 ## In short, the contributions of this paper can be summarized as follows:
@@ -72,24 +69,18 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 
 
 <br>
-<br>
-<br>
-<br>
+
 
 
 For the demonstration of this project, please see <a href="https://github.com/AIS-Clemson/DRL-BEMS">this link</a>
 
+<br>
 
-
-<br>
-<br>
-<br>
-<br>
 
 
 # Citation
 
-## Applied Energy (Elsevier)
+## Applied Energy - Elsevier (formal reference)
 [Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach](https://doi.org/10.1016/j.apenergy.2023.122354)
 ```
 @article{WANG2024122354,
