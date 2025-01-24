@@ -1,6 +1,6 @@
 # Building Energy Management System for Multi-VAV HVAC in Open Offices
 # 2023-10-31
-
+## This is the original implementation of paper [Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach](https://doi.org/10.1016/j.apenergy.2023.122354)
 <br>
 
 <img src="./plot/HVAC_2.0.gif" alt="Training process monitoring" width='100%'>
@@ -11,20 +11,18 @@
 
 # Citation
 
-Recommended citation: 
+## Arxiv Preprint (for research only)
+[Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach](https://arxiv.org/abs/2306.13333v2)
 
-Wang H, Chen X, Vital N, et al. Energy Optimization for HVAC Systems in Multi-VAV Open Offices: A Deep Reinforcement Learning Approach[J]. arXiv preprint arXiv:2306.13333, 2023.
-
+```
 @article{wang2023energy,
   title={Energy Optimization for HVAC Systems in Multi-VAV Open Offices: A Deep Reinforcement Learning Approach},
   author={Wang, Hao and Chen, Xiwen and Vital, Natan and Duffy, Edward and Razi, Abolfazl},
   journal={arXiv preprint arXiv:2306.13333},
   year={2023}
 }
+```
 
-<br>
-<br>
-<br>
 <br>
 
 
@@ -90,18 +88,6 @@ For the demonstration of this project, please see <a href="https://github.com/AI
 
 
 # Citation
-
-## Arxiv Preprint
-[Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach](https://arxiv.org/abs/2306.13333v2)
-
-```
-@article{wang2023energy,
-  title={Energy Optimization for HVAC Systems in Multi-VAV Open Offices: A Deep Reinforcement Learning Approach},
-  author={Wang, Hao and Chen, Xiwen and Vital, Natan and Duffy, Edward and Razi, Abolfazl},
-  journal={arXiv preprint arXiv:2306.13333},
-  year={2023}
-}
-```
 
 ## Applied Energy (Elsevier)
 [Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach](https://doi.org/10.1016/j.apenergy.2023.122354)
