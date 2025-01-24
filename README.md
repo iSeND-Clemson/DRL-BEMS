@@ -29,8 +29,6 @@ Project page: <a href="https://arazi2.github.io/aisends.github.io/project/bems">
 <br>
 
 # Project Overview
-we present a DRL-based HVAC control method to optimize building energy consumption in such floor plans. Our specifically designed open office model consists of multiple interconnected spaces, and the DRL algorithm is applied to control multiple VAV units jointly.
-
 The global energy outlook is witnessing a continuous surge in the demand for energy resources, alongside a growing concern for environmental sustainability. With the world's population reaching 8 billion people, our consumption of energy has reached unprecedented levels. The excessive use of energy sources like coal, oil, and natural gas has resulted in the release of harmful greenhouse gases, contributing significantly to the critical issue of global warming. These emissions not only deplete our planet's limited resources but also exacerbate conflicts related to resource availability. This highlights the importance of more informed energy consumption, worldwide.
 
 <br>
@@ -44,6 +42,14 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 <img src="./plot/multi_VAV_2.jpg" width="80%">
 
 <br>
+
+Thus, we present a DRL-based HVAC control method to optimize building energy consumption in such floor plans. Our specifically designed open office model consists of multiple interconnected spaces, and the DRL algorithm is applied to control multiple VAV units jointly.
+<br>
+
+<img src="./plot/framework_2.jpg" width="80%">
+
+<br>
+
 
 ## In short, the contributions of this paper can be summarized as follows:
 
@@ -61,9 +67,6 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 
 <br>
 
-<img src="./plot/framework_2.jpg" width="80%">
-
-<br>
 
 
 
