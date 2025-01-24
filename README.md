@@ -1,7 +1,7 @@
 # Building Energy Management System for Multi-VAV HVAC in Open Offices
 ### 2023-10-31
 
-This is the original implementation of paper: **Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach **
+This is the original implementation of paper: **Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach**
 [link](https://doi.org/10.1016/j.apenergy.2023.122354)
 <br>
 
