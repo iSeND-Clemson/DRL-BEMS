@@ -56,17 +56,17 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 
 ## In short, the contributions of this paper can be summarized as follows:
 
-### We analyze the heat transfer features of connected spaces in open-plan offices and compare their energy consumption to offices with traditional closed floor plans. We offer a formulation for thermal energy exchange that suits open offices.
+1. We analyze the heat transfer features of connected spaces in open-plan offices and compare their energy consumption to offices with traditional closed floor plans. We offer a formulation for thermal energy exchange that suits open offices. <br>
 
-### We propose a DRL-based control algorithm that simultaneously optimizes thermal comfort and energy efficiency using a multiple-input and multiple-output architecture. It resulted in a 37% reduction in HVAC energy consumption with less than 1% violation of the temperature comfort level and 2.5% violation of humidity comfort level. Note that our model is flexible and can trade off energy efficiency with comfort violation by controlling the tuning parameters.  
+2. We propose a DRL-based control algorithm that simultaneously optimizes thermal comfort and energy efficiency using a multiple-input and multiple-output architecture. It resulted in a 37% reduction in HVAC energy consumption with less than 1% violation of the temperature comfort level and 2.5% violation of humidity comfort level. Note that our model is flexible and can trade off energy efficiency with comfort violation by controlling the tuning parameters.  <br>
 
-### The proposed model requires only minimal input variables, including the outdoor temperature, indoor temperature, time, and control signals. The action space is a binary vector to activate/inactivate enforcing temperature range, instead of using explicit set points. These two approaches make the framework concise and easily generalizable to other buildings. %easily employable.
+3. The proposed model requires only minimal input variables, including the outdoor temperature, indoor temperature, time, and control signals. The action space is a binary vector to activate/inactivate enforcing temperature range, instead of using explicit set points. These two approaches make the framework concise and easily generalizable to other buildings. %easily employable. <br>
 
-### We apply a heuristic reward policy to accelerate the training process and reduce the model complexity.
+4. We apply a heuristic reward policy to accelerate the training process and reduce the model complexity. <br>
 
-### We introduce a penalty term in the cost function that penalizes frequent inconvenient on/off transitions to avoid discomfort and damage to the HVAC system. 
+5. We introduce a penalty term in the cost function that penalizes frequent inconvenient on/off transitions to avoid discomfort and damage to the HVAC system.  <br>
 
-### Our model is computationally efficient and takes only about 7.75 minutes per epoch (about 40 minutes for 5 epochs) to train. It can be easily adapted to other open-plan offices, making it a universal solution for building energy optimization.
+6. Our model is computationally efficient and takes only about 7.75 minutes per epoch (about 40 minutes for 5 epochs) to train. It can be easily adapted to other open-plan offices, making it a universal solution for building energy optimization. <br>
 
 <br>
 
@@ -91,13 +91,31 @@ For the demonstration of this project, please see <a href="https://github.com/AI
 
 # Citation
 
-Recommended citation: 
+## Arxiv Preprint
+[Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach](https://arxiv.org/abs/2306.13333v2)
 
-Wang H, Chen X, Vital N, et al. Energy Optimization for HVAC Systems in Multi-VAV Open Offices: A Deep Reinforcement Learning Approach[J]. arXiv preprint arXiv:2306.13333, 2023.
-
+```
 @article{wang2023energy,
   title={Energy Optimization for HVAC Systems in Multi-VAV Open Offices: A Deep Reinforcement Learning Approach},
   author={Wang, Hao and Chen, Xiwen and Vital, Natan and Duffy, Edward and Razi, Abolfazl},
   journal={arXiv preprint arXiv:2306.13333},
   year={2023}
 }
+```
+
+## Applied Energy (Elsevier)
+[Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach](https://doi.org/10.1016/j.apenergy.2023.122354)
+```
+@article{WANG2024122354,
+title = {Energy optimization for HVAC systems in multi-VAV open offices: A deep reinforcement learning approach},
+journal = {Applied Energy},
+volume = {356},
+pages = {122354},
+year = {2024},
+issn = {0306-2619},
+doi = {https://doi.org/10.1016/j.apenergy.2023.122354},
+url = {https://www.sciencedirect.com/science/article/pii/S030626192301718X},
+author = {Hao Wang and Xiwen Chen and Natan Vital and Edward Duffy and Abolfazl Razi},
+keywords = {Smart buildings, Building energy management, Energy simulation, Energy optimization, Open-plan office, Deep reinforcement learning, HVAC system},
+}
+```
