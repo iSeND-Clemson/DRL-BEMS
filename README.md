@@ -7,9 +7,7 @@ This is the original implementation of paper: **Energy optimization for HVAC sys
 
 <img src="./plot/HVAC_2.0.gif" alt="Training process monitoring" width='100%'>
 
-
 <br>
-
 
 # Citation
 
@@ -27,20 +25,15 @@ This is the original implementation of paper: **Energy optimization for HVAC sys
 
 <br>
 
-
 # Project Overview
 we present a DRL-based HVAC control method to optimize building energy consumption in such floor plans. Our specifically designed open office model consists of multiple interconnected spaces, and the DRL algorithm is applied to control multiple VAV units jointly.
-
-
 
 The global energy outlook is witnessing a continuous surge in the demand for energy resources, alongside a growing concern for environmental sustainability. With the world's population reaching 8 billion people, our consumption of energy has reached unprecedented levels. The excessive use of energy sources like coal, oil, and natural gas has resulted in the release of harmful greenhouse gases, contributing significantly to the critical issue of global warming. These emissions not only deplete our planet's limited resources but also exacerbate conflicts related to resource availability. This highlights the importance of more informed energy consumption, worldwide.
 
 <br>
 <img src="./plot/commercial_hvac_all.jpg" width="80%">
 
-
 <br>
-
 
 Despite the popularity of open-plan offices in commercial buildings, limited research has been conducted to address the importance of energy optimization in these types of spaces. For instance, VAV units in such offices often operate independently, without considering the interconnectivity of these spaces, which can result in a disparity in heating and cooling, with areas located close to vents receiving more ventilation-based heating/cooling, while spaces near windows receive more heat from solar radiation.
 
@@ -48,8 +41,6 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 <img src="./plot/multi_VAV_2.jpg" width="80%">
 
 <br>
-
-
 
 ## In short, the contributions of this paper can be summarized as follows:
 
@@ -69,15 +60,11 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 
 <img src="./plot/framework_2.jpg" width="80%">
 
-
 <br>
-
-
 
 For the demonstration of this project, please see <a href="https://github.com/AIS-Clemson/DRL-BEMS">this link</a>
 
 <br>
-
 
 
 # Citation
