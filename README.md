@@ -46,7 +46,7 @@ Despite the popularity of open-plan offices in commercial buildings, limited res
 Thus, we present a DRL-based HVAC control method to optimize building energy consumption in such floor plans. Our specifically designed open office model consists of multiple interconnected spaces, and the DRL algorithm is applied to control multiple VAV units jointly.
 <br>
 
-<img src="./plot/framework_2.jpg" width="80%">
+<img src="./plot/framework_2.jpg" width="100%">
 
 <br>
 
